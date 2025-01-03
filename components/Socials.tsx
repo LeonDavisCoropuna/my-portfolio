@@ -1,21 +1,27 @@
-import { Link } from "lucide-react";
-import { FaGithub, FaLinkedin, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "https://github.com/your-profile" },
-  { icon: <FaLinkedin />, path: "https://linkedin.com/in/your-profile" },
-  { icon: <FaYoutube />, path: "https://youtube.com/your-channel" },
-  { icon: <FaTwitter />, path: "https://twitter.com/your-handle" },
+  { icon: <FaGithub height={30} />, path: "https://github.com/LeonDavisCoropuna" },
+  { icon: <FaLinkedin />, path: "https://www.linkedin.com/in/leon-felipe-davis-coropuna-930772336/" },
+  // { icon: <FaYoutube />, path: "https://youtube.com/your-channel" },
+  // { icon: <FaTwitter />, path: "https://twitter.com/your-handle" },
 ];
 
-const Socials = ({ containerStyles, iconStyles }: { containerStyles: string, iconStyles: string }) => {
+const Socials = ({ containerStyles, iconStyles }: { containerStyles: string; iconStyles: string }) => {
   return (
     <div className={containerStyles}>
       {socials.map((social, index) => (
-        <Link href={social.path} key={index} className={iconStyles}>{social.icon}</Link>
+        <a
+          href={social.path}
+          key={index}
+          target="_blank"
+          className={`${iconStyles} h-12 w-12`} // Añadimos dimensiones claras
+        >
+          {social.icon}
+        </a>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Socials
+export default Socials;

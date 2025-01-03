@@ -7,25 +7,25 @@ const services = [
   {
     num: '01',
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, cum?",
+    description: "Creating responsive, fast, and user-friendly websites that enhance user experience and engagement.",
     href: ""
   },
   {
     num: '02',
     title: "UX/UI",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, cum?",
+    description: "Designing intuitive user interfaces with a focus on user experience to ensure seamless interactions.",
     href: ""
   },
   {
     num: '03',
-    title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, cum?",
+    title: "AI (Artificial Intelligence)",
+    description: "Leveraging Python for AI development, from machine learning models to neural networks and data analysis.",
     href: ""
   },
   {
     num: '04',
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, cum?",
+    title: "CI/CD & Deployment",
+    description: "Implementing CI/CD pipelines with Docker for seamless deployment, automated testing, and efficient development workflows.",
     href: ""
   }
 ]

@@ -5,7 +5,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si"
 
 const about = {
   title: "About me",
-  description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, possimus.",
+  description: "I am a passionate software developer with a strong background in web development, AI, and problem-solving. I enjoy tackling complex challenges and continuously improving my skills to create impactful solutions. With a focus on collaboration and innovation, I strive to build meaningful and user-centered experiences.",
   info: [
     {
       fieldname: "Name",
@@ -17,7 +17,7 @@ const about = {
     },
     {
       fieldname: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "1+ Years",
     },
     {
       fieldname: "Skype",
@@ -25,7 +25,7 @@ const about = {
     },
     {
       fieldname: "Nacionality",
-      fieldValue: "American",
+      fieldValue: "Peruvian",
     },
     {
       fieldname: "Email",
@@ -37,45 +37,38 @@ const about = {
     },
     {
       fieldname: "Lenguages",
-      fieldValue: "Spanish, English",
+      fieldValue: "Spanish, Portuguese and English",
     }
   ]
 }
-
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
-  description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem, optio.",
+  description: "Experience in various areas such as inventory supervision, customer service, and data gathering.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - present"
+      company: "VALMORE S.A.C",
+      position: "Inventory - INTERSUR",
+      duration: "January 2024",
+      description: "Supervised the compliance with quality standards and proper placement of goods in the facilities. Conducted inventory audits, verifying the condition and existence of assets."
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer",
-      duration: "Summer - 2021"
+      company: "SNACK - LA JESUSA",
+      position: "Waiter",
+      duration: "January - March 2023",
+      description: "Provided customer service and food service at a restaurant located in Plaza Yanahuara, Arequipa."
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021"
+      company: "VALMORE S.A.C",
+      position: "Data Collector - SEDAPAR",
+      duration: "February 2022",
+      description: "Inspected and documented the conditions of registered assets. Prepared detailed reports for the parent company, highlighting key observations and potential corrective actions."
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assitant",
-      duration: "2019 - 2020"
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019"
-    },
-    {
-      company: "Software Develepment Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018"
+      company: "VIDAS FELICES - NGO",
+      position: "Volunteer",
+      duration: "January - March 2021",
+      description: "Volunteered for charitable causes, assisting both people and animals in vulnerable situations. I helped organize events, provide aid, and raise awareness to support the community in need."
     }
   ]
 }

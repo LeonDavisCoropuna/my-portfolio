@@ -22,7 +22,7 @@ const Photo = () => {
           }}
         >
           <Image
-            src="/photo.png"
+            src="/terrible.png"
             width={298} // Ancho fijo para la imagen
             height={298} // Altura fija para la imagen
             priority
