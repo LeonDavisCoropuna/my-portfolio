@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/(.*)",
-      "destination": "https://my-portfolio-git-main-leondaviscoropunas-projects.vercel.app",
-      "permanent": true
-    }
-  ]
-}
