@@ -213,7 +213,7 @@
     {
       "company": "ArqSoft Consultores SAC",
       "role": "Programmer Analyst",
-      "period": "August 2025 — August 2026",
+      "period": "August 2025 — September 2026",
       "location": "Arequipa, Peru",
       "engagements": [
         {
@@ -238,7 +238,7 @@
         },
         {
           "client": "Nuam",
-          "period": "Jun — Aug 2026",
+          "period": "Jun — Sep 2026",
           "role": "Backend Developer",
           "tech": ["Java 14", "Spring Boot", "Kafka", "Redis", "JMS", "ActiveMQ Artemis"],
           "bullets": [
