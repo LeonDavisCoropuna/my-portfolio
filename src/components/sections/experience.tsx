@@ -5,12 +5,21 @@ import { useTranslations } from "next-intl";
 import { SectionReveal } from "@/components/section-reveal";
 import { SectionLabel } from "@/components/section-label";
 
+type Engagement = {
+  client: string;
+  period: string;
+  role: string;
+  tech: string[];
+  bullets: string[];
+};
+
 type ExperienceItem = {
   company: string;
   role: string;
   period: string;
   location: string;
-  highlights: string[];
+  highlights?: string[];
+  engagements?: Engagement[];
 };
 
 export function Experience() {
@@ -42,14 +51,53 @@ export function Experience() {
                     {job.company}
                   </span>
                 </h3>
-                <ul className="text-muted-foreground mt-4 space-y-2 text-sm leading-6">
-                  {job.highlights.map((h, i) => (
-                    <li key={i} className="relative pl-5">
-                      <span className="bg-muted-foreground absolute top-2.5 left-0 size-1.5 rounded-full" />
-                      {h}
-                    </li>
-                  ))}
-                </ul>
+
+                {job.engagements ? (
+                  <div className="mt-5 space-y-5 border-l border-border/40 pl-6">
+                    {job.engagements.map((eng, ei) => (
+                      <div key={ei}>
+                        <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+                          <h4 className="text-base font-medium tracking-tight">
+                            {eng.client}
+                          </h4>
+                          <span className="text-muted-foreground text-xs tabular-nums">
+                            {eng.period}
+                          </span>
+                        </div>
+                        <p className="text-muted-foreground text-sm">
+                          {eng.role}
+                        </p>
+                        <div className="mt-2 flex flex-wrap gap-1.5">
+                          {eng.tech.map((tech, ti) => (
+                            <span
+                              key={ti}
+                              className="border-border/60 bg-muted/40 rounded-full border px-2 py-0.5 text-[11px] font-medium"
+                            >
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                        <ul className="text-muted-foreground mt-3 space-y-2 text-sm leading-6">
+                          {eng.bullets.map((b, bi) => (
+                            <li key={bi} className="relative pl-5">
+                              <span className="bg-muted-foreground absolute top-2.5 left-0 size-1.5 rounded-full" />
+                              {b}
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <ul className="text-muted-foreground mt-4 space-y-2 text-sm leading-6">
+                    {job.highlights?.map((h, i) => (
+                      <li key={i} className="relative pl-5">
+                        <span className="bg-muted-foreground absolute top-2.5 left-0 size-1.5 rounded-full" />
+                        {h}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </li>
             </SectionReveal>
           ))}

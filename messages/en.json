@@ -212,13 +212,40 @@
   "ExperienceData": [
     {
       "company": "ArqSoft Consultores SAC",
-      "role": "Backend Developer",
+      "role": "Programmer Analyst",
       "period": "August 2025 — August 2026",
       "location": "Arequipa, Peru",
-      "highlights": [
-        "Built microservices with Java Spring Boot, hexagonal architecture and DDD for massive data migration processes (4–5 million records monthly).",
-        "Implemented messaging solutions with Apache Kafka, ActiveMQ Artemis and JMS, with async processing, manual commit and Redis-based deduplication for ~150k daily messages.",
-        "Modelled databases in SQL Server and IBM DB2, with deployments and support on Linux environments via SSH and corporate VPNs."
+      "engagements": [
+        {
+          "client": "Scotiabank Peru",
+          "period": "Aug 2025 — Feb 2026",
+          "role": "Backend Developer",
+          "tech": ["Java 8/11/25", "Spring Boot", "AS/400", "DB2", "SQL Server", "Hexagonal", "DDD"],
+          "bullets": [
+            "Built microservices with Java 8/11/25 and Spring Boot, applying hexagonal architecture and DDD for massive data migration processes and ETL pipelines over AS/400.",
+            "Modelled and tuned schemas in DB2 and SQL Server, with deployments and support on Linux environments via corporate SSH."
+          ]
+        },
+        {
+          "client": "Cavali",
+          "period": "Feb — Jun 2026",
+          "role": "Backend Developer",
+          "tech": ["Java 11", "JavaScript", "IBM App Connect", "SQL", "ESQL"],
+          "bullets": [
+            "Implemented system integrations with Java 11 and JavaScript using IBM App Connect, SQL and ESQL for corporate clearing and settlement flows.",
+            "Designed corporate authentication mechanisms on IBM platforms for sensitive business processes."
+          ]
+        },
+        {
+          "client": "Nuam",
+          "period": "Jun — Aug 2026",
+          "role": "Backend Developer",
+          "tech": ["Java 14", "Spring Boot", "Kafka", "Redis", "JMS", "ActiveMQ Artemis"],
+          "bullets": [
+            "Built microservices in Java 14 and Spring Boot, integrating Apache Kafka, ActiveMQ Artemis and JMS for high-volume asynchronous messaging.",
+            "Implemented Redis-based deduplication and resilience patterns (retry, DLQ) handling ~150k daily messages."
+          ]
+        }
       ]
     }
   ],

@@ -212,13 +212,40 @@
   "ExperienceData": [
     {
       "company": "ArqSoft Consultores SAC",
-      "role": "Desarrollador Backend",
+      "role": "Analista Programador",
       "period": "Agosto 2025 — Agosto 2026",
       "location": "Arequipa, Perú",
-      "highlights": [
-        "Desarrollé microservicios con Java Spring Boot, arquitectura hexagonal y DDD para procesos de migración masiva de datos (4–5 millones de registros mensuales).",
-        "Implementé soluciones de mensajería con Apache Kafka, ActiveMQ Artemis y JMS, con procesamiento asíncrono, commit manual y deduplicación con Redis para aproximadamente 150 mil mensajes diarios.",
-        "Modelé bases de datos en SQL Server e IBM DB2, con despliegues y soporte en ambientes Linux mediante SSH y VPN corporativas."
+      "engagements": [
+        {
+          "client": "Scotiabank Perú",
+          "period": "Ago 2025 — Feb 2026",
+          "role": "Desarrollador Backend",
+          "tech": ["Java 8/11/25", "Spring Boot", "AS/400", "DB2", "SQL Server", "Hexagonal", "DDD"],
+          "bullets": [
+            "Desarrollé microservicios con Java 8/11/25 y Spring Boot, aplicando arquitectura hexagonal y DDD para procesos de migración masiva de datos y ETLs sobre AS/400.",
+            "Modelé y optimicé esquemas en DB2 y SQL Server, con despliegues y soporte en ambientes Linux mediante SSH corporativo."
+          ]
+        },
+        {
+          "client": "Cavali",
+          "period": "Feb — Jun 2026",
+          "role": "Desarrollador Backend",
+          "tech": ["Java 11", "JavaScript", "IBM App Connect", "SQL", "ESQL"],
+          "bullets": [
+            "Implementé integraciones entre sistemas con Java 11 y JavaScript usando IBM App Connect, SQL y ESQL para flujos corporativos de compensación y liquidación de valores.",
+            "Diseñé mecanismos de autenticación corporativa sobre plataformas IBM para procesos sensibles del negocio."
+          ]
+        },
+        {
+          "client": "Nuam",
+          "period": "Jun — Ago 2026",
+          "role": "Desarrollador Backend",
+          "tech": ["Java 14", "Spring Boot", "Kafka", "Redis", "JMS", "ActiveMQ Artemis"],
+          "bullets": [
+            "Construí microservicios en Java 14 y Spring Boot, integrando Apache Kafka, ActiveMQ Artemis y JMS para mensajería asíncrona de alto volumen.",
+            "Implementé deduplicación con Redis y patrones de resiliencia (retry, DLQ) sobre aproximadamente 150 mil mensajes diarios."
+          ]
+        }
       ]
     }
   ],
