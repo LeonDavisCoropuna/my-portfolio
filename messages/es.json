@@ -1,0 +1,314 @@
+{
+  "Metadata": {
+    "title": "León Davis — Backend & IA aplicada",
+    "description": "Portafolio de León Davis — Backend con Java/Spring Boot, microservicios, cloud e IA aplicada (LLMs, visión por computadora).",
+    "keywords": [
+      "backend",
+      "java",
+      "spring boot",
+      "microservicios",
+      "inteligencia artificial",
+      "llms",
+      "cloud",
+      "aws",
+      "gcp",
+      "arequipa"
+    ]
+  },
+  "Nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "stack": "Stack",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "available": "Disponible para nuevos proyectos",
+    "headline1": "Construyo",
+    "headline2": "backend",
+    "headline3": "a escala",
+    "headline4": "e IA aplicada.",
+    "tagline": "Desarrollador backend especializado en microservicios, arquitecturas distribuidas e inteligencia artificial aplicada.",
+    "tagline2": "Trabajo con Java/Spring Boot, microservicios, Kafka, Redis y LLMs.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactar"
+  },
+  "About": {
+    "number": "01",
+    "label": "Sobre mí",
+    "title": "Backend, datos e IA.",
+    "p1": "Soy bachiller en Ciencia de la Computación por la <bold>Universidad Nacional de San Agustín</bold> y desarrollador backend con experiencia construyendo microservicios, arquitecturas distribuidas y pipelines de datos a gran escala.",
+    "p2": "Mi trabajo actual se centra en <bold>Java y Spring Boot</bold> sobre arquitectura hexagonal, procesando del orden de millones de registros y cientos de miles de mensajes diarios con Kafka, Redis y bases relacionales.",
+    "p3": "Paralelamente investigo y aplico <bold>inteligencia artificial</bold> — desde LLMs para NL→SQL sobre datos abiertos, hasta sistemas de visión por computadora distribuidos sobre GCP."
+  },
+  "Experience": {
+    "number": "02",
+    "label": "Experiencia",
+    "title": "Dónde he trabajado"
+  },
+  "Projects": {
+    "number": "03",
+    "label": "Proyectos",
+    "title": "Cosas que he construido.",
+    "subtitle": "Investigación, cloud y productos full-stack.",
+    "featured": "destacado",
+    "links": {
+      "repo": "Repo",
+      "paper": "Paper",
+      "demo": "Demo"
+    }
+  },
+  "Stack": {
+    "number": "04",
+    "label": "Stack",
+    "title": "Herramientas que uso."
+  },
+  "Education": {
+    "number": "05",
+    "label": "Educación",
+    "title": "Formación",
+    "certifications": "Certificaciones"
+  },
+  "Contact": {
+    "number": "06",
+    "label": "Contacto",
+    "title": "Hablemos.",
+    "subtitle": "Disponible para oportunidades en backend, cloud o investigación aplicada. Escríbeme y conversamos.",
+    "sendEmail": "Enviar email",
+    "linkedin": "Conectar en LinkedIn"
+  },
+  "Footer": {
+    "copyright": "© {year} León Davis."
+  },
+  "ProjectsData": {
+    "crimqa": {
+      "title": "CRIMQA",
+      "role": "Investigador",
+      "period": "Octubre 2025",
+      "summary": "Sistema de preguntas y respuestas en lenguaje natural sobre datos de criminalidad urbana, con visualizaciones geográficas interactivas generadas a partir de LLMs y registros oficiales.",
+      "highlights": [
+        "Diseño e implementación de un pipeline NL→SQL sobre datos de criminalidad urbana.",
+        "Integración de LLMs con registros oficiales y publicaciones en redes sociales.",
+        "Generación de visualizaciones geográficas interactivas a partir de consultas en lenguaje natural.",
+        "Paper aceptado en IEEE SCCC 2025."
+      ],
+      "stack": [
+        "LLMs",
+        "Python",
+        "TypeScript",
+        "NLP",
+        "Geo"
+      ],
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/document/11420807",
+        "github": "https://github.com/LeonDavisCoropuna"
+      },
+      "featured": true
+    },
+    "face-detection-fog-cloud": {
+      "title": "Face Detection Fog/Cloud",
+      "role": "IA & Cloud",
+      "period": "Diciembre 2025",
+      "summary": "Sistema distribuido de detección facial sobre arquitectura Fog/Cloud desplegado en Google Cloud Platform, con modelos de visión por computadora servidos desde el edge hasta la nube.",
+      "highlights": [
+        "Detección facial con YOLOv8 y verificación de vivacidad con MiniFASNetV2.",
+        "Orquestación de microservicios en Cloud Run, Cloud Functions y Pub/Sub.",
+        "Infraestructura como código con Pulumi para entornos reproducibles.",
+        "Procesamiento distribuido entre nodos Fog y Cloud para baja latencia."
+      ],
+      "stack": [
+        "Python",
+        "YOLOv8",
+        "MiniFASNetV2",
+        "OpenCV",
+        "PyTorch",
+        "GCP",
+        "Cloud Run",
+        "Pub/Sub",
+        "Pulumi",
+        "Docker"
+      ],
+      "links": {
+        "github": "https://github.com/LeonDavisCoropuna/face-detection-fog-iac"
+      },
+      "featured": true
+    },
+    "clone-classroom": {
+      "title": "Clone de Google Classroom",
+      "role": "Full Stack",
+      "period": "Enero 2025",
+      "summary": "Réplica funcional de Google Classroom con autenticación mediante Google OAuth y almacenamiento de materiales en Google Drive, sobre una arquitectura MVC en TypeScript.",
+      "highlights": [
+        "Inicio de sesión con Google y manejo de sesiones persistentes.",
+        "Almacenamiento de archivos en Google Drive para materiales de clase.",
+        "ORM con Prisma sobre MySQL para modelado y consultas optimizadas.",
+        "Arquitectura MVC separando responsabilidades frontend/backend."
+      ],
+      "stack": [
+        "TypeScript",
+        "Node.js",
+        "Prisma",
+        "MySQL",
+        "Google OAuth",
+        "Drive API"
+      ],
+      "links": {
+        "github": "https://github.com/LeonDavisCoropuna/Classroom-clone"
+      }
+    },
+    "chat-real-time": {
+      "title": "Chat en tiempo real",
+      "role": "Full Stack",
+      "period": "Enero 2024",
+      "summary": "Aplicación de mensajería en tiempo real con stack MERN tipado, contenerizada con Docker, proxy inverso con Nginx y desplegada en AWS EC2.",
+      "highlights": [
+        "Stack MERN + TypeScript para tipado end-to-end.",
+        "Docker Compose para entorno de desarrollo y producción consistente.",
+        "Nginx como reverse proxy: cacheo, seguridad y balanceo.",
+        "Despliegue en AWS EC2 con alta disponibilidad."
+      ],
+      "stack": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "TypeScript",
+        "Docker",
+        "Nginx",
+        "AWS EC2"
+      ],
+      "links": {
+        "github": "https://github.com/LeonDavisCoropuna/chat-mern-ts",
+        "youtube": "https://www.youtube.com/channel/UCspceWnNM4JUOZZCWbOkALg"
+      }
+    },
+    "enrollment-management": {
+      "title": "Enrollment Management System",
+      "role": "Backend",
+      "period": "Enero 2024",
+      "summary": "Microservicio para la gestión de cursos implementado con Domain-Driven Design en .NET, organizado en capas (Application, Domain, Infrastructure, Web.API).",
+      "highlights": [
+        "Arquitectura DDD en capas: Application, Domain, Infrastructure, Web.API.",
+        "Operaciones CRUD, integración con base de datos y exposición de API REST.",
+        "Pruebas de API con Postman y Swagger.",
+        "Pruebas de rendimiento con Apache JMeter y seguridad con OWASP ZAP."
+      ],
+      "stack": [
+        ".NET",
+        "C#",
+        "DDD",
+        "REST",
+        "SQL Server",
+        "Postman",
+        "JMeter",
+        "OWASP ZAP"
+      ],
+      "links": {
+        "github": "https://github.com/ShinjiMC/Enrollment-Management-System-UNSA"
+      }
+    }
+  },
+  "ExperienceData": [
+    {
+      "company": "ArqSoft Consultores SAC",
+      "role": "Desarrollador Backend",
+      "period": "Enero — Julio 2026",
+      "location": "Arequipa, Perú",
+      "highlights": [
+        "Desarrollé microservicios con Java Spring Boot, arquitectura hexagonal y DDD para procesos de migración masiva de datos (4–5 millones de registros mensuales).",
+        "Implementé soluciones de mensajería con Apache Kafka, ActiveMQ Artemis y JMS, con procesamiento asíncrono, commit manual y deduplicación con Redis para aproximadamente 150 mil mensajes diarios.",
+        "Modelé bases de datos en SQL Server e IBM DB2, con despliegues y soporte en ambientes Linux mediante SSH y VPN corporativas."
+      ]
+    }
+  ],
+  "StackData": [
+    {
+      "category": "Backend",
+      "items": [
+        "Java",
+        "Spring Boot",
+        ".NET",
+        "C#",
+        "Node.js",
+        "Express",
+        "DDD",
+        "Hexagonal"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "category": "Datos",
+      "items": [
+        "SQL Server",
+        "IBM DB2",
+        "MySQL",
+        "MongoDB",
+        "Prisma"
+      ]
+    },
+    {
+      "category": "Mensajería & Cache",
+      "items": [
+        "Apache Kafka",
+        "ActiveMQ Artemis",
+        "JMS",
+        "Redis"
+      ]
+    },
+    {
+      "category": "IA / ML",
+      "items": [
+        "PyTorch",
+        "OpenCV",
+        "YOLOv8",
+        "MiniFASNetV2",
+        "LLMs",
+        "NLP"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        "AWS (EC2, ECS)",
+        "GCP (Cloud Run, Functions, Pub/Sub)",
+        "Docker",
+        "Nginx",
+        "Pulumi",
+        "Linux"
+      ]
+    }
+  ],
+  "EducationData": [
+    {
+      "institution": "Universidad Nacional de San Agustín",
+      "degree": "Bachiller en Ciencia de la Computación",
+      "period": "Marzo 2021 — Diciembre 2025",
+      "location": "Arequipa, Perú",
+      "honors": [
+        "Seleccionado para asistir al CLEI 2024 (Bahía Blanca, Argentina).",
+        "Seleccionado para asistir al SBSeg 2025 (Foz do Iguaçu, Brasil)."
+      ]
+    }
+  ],
+  "CertificationsData": [
+    {
+      "name": "AWS Academy Graduate – Cloud Architecting",
+      "issuer": "AWS Academy",
+      "url": "https://www.credly.com/badges/39642c6a-125f-4b12-8818-5e76d9c547d5/public_url"
+    },
+    {
+      "name": "AWS Academy Graduate – Cloud Foundations",
+      "issuer": "AWS Academy",
+      "url": "https://www.credly.com/badges/fe098c46-fe6d-4045-a48a-63199776a393/public_url"
+    }
+  ]
+}
