@@ -94,30 +94,6 @@
     "copyright": "© {year} León Davis."
   },
   "ProjectsData": {
-    "crimqa": {
-      "title": "CRIMQA",
-      "role": "Researcher",
-      "period": "October 2025",
-      "summary": "Natural-language question answering system over urban crime data, with interactive geographic visualizations generated from LLMs and official records.",
-      "highlights": [
-        "Designed and implemented an NL→SQL pipeline over urban crime data.",
-        "Integrated LLMs with official records and social media publications.",
-        "Generated interactive geographic visualizations from natural language queries.",
-        "Paper accepted at IEEE SCCC 2025."
-      ],
-      "stack": [
-        "LLMs",
-        "Python",
-        "TypeScript",
-        "NLP",
-        "Geo"
-      ],
-      "links": {
-        "paper": "https://ieeexplore.ieee.org/document/11420807",
-        "github": "https://github.com/LeonDavisCoropuna"
-      },
-      "featured": true
-    },
     "face-detection-fog-cloud": {
       "title": "Face Detection Fog/Cloud",
       "role": "AI & Cloud",

@@ -19,7 +19,7 @@ type ProjectData = {
   featured?: boolean;
 };
 
-const SLUGS = ["crimqa", "face-detection-fog-cloud", "clone-classroom", "chat-real-time", "enrollment-management"] as const;
+const SLUGS = ["face-detection-fog-cloud", "clone-classroom", "chat-real-time", "enrollment-management"] as const;
 
 export function Projects() {
   const t = useTranslations();

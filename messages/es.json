@@ -69,7 +69,7 @@
     "number": "05",
     "label": "Publicaciones",
     "title": "Papers que he publicado.",
-    "subtitle": "Investigación revisada por pares en Journals e Soledad.",
+    "subtitle": "Investigación revisada por pares en revistas y conferencias.",
     "links": {
       "paper": "Paper",
       "doi": "DOI",
@@ -94,30 +94,6 @@
     "copyright": "© {year} León Davis."
   },
   "ProjectsData": {
-    "crimqa": {
-      "title": "CRIMQA",
-      "role": "Investigador",
-      "period": "Octubre 2025",
-      "summary": "Sistema de preguntas y respuestas en lenguaje natural sobre datos de criminalidad urbana, con visualizaciones geográficas interactivas generadas a partir de LLMs y registros oficiales.",
-      "highlights": [
-        "Diseño e implementación de un pipeline NL→SQL sobre datos de criminalidad urbana.",
-        "Integración de LLMs con registros oficiales y publicaciones en redes sociales.",
-        "Generación de visualizaciones geográficas interactivas a partir de consultas en lenguaje natural.",
-        "Paper aceptado en IEEE SCCC 2025."
-      ],
-      "stack": [
-        "LLMs",
-        "Python",
-        "TypeScript",
-        "NLP",
-        "Geo"
-      ],
-      "links": {
-        "paper": "https://ieeexplore.ieee.org/document/11420807",
-        "github": "https://github.com/LeonDavisCoropuna"
-      },
-      "featured": true
-    },
     "face-detection-fog-cloud": {
       "title": "Face Detection Fog/Cloud",
       "role": "IA & Cloud",
