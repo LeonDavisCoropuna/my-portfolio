@@ -299,7 +299,11 @@
     {
       "category": "Cloud & DevOps",
       "items": [
-        "AWS (EC2, ECS)",
+        "AWS",
+        "EKS",
+        "CloudWatch",
+        "EC2",
+        "ECS",
         "GCP (Cloud Run, Functions, Pub/Sub)",
         "Docker",
         "Nginx",
@@ -314,13 +318,13 @@
       "venue": "International Journal of Advanced Computer Science and Applications (IJACSA)",
       "year": "2026",
       "type": "Research Article",
-      "role": "First author",
+      "role": "Principal author",
       "summary": "A multimodal framework for time-series question answering that builds on ITFormer using a frozen 0.5B-parameter SLM. It introduces Balanced Fusion, a lightweight pre-attentional normalization mechanism with only 1,794 additional trainable parameters, and a post-hoc X-Module for multi-level auditing.",
       "highlights": [
         "Balanced Fusion: pre-attentional normalization with 1,794 additional trainable parameters, reducing logged counterfactual MSE by 26.3% and optimization iterations by 38.0% (Wilcoxon, p ≤ 0.001, N = 1000 ECG-QA samples).",
         "Multi-level auditing: attention-based attribution (Level 1), k-nearest-neighbor case retrieval (Level 2) and counterfactual generation (Level 3), with attention maps stable under Gaussian noise (cosine similarity 0.9998).",
         "Efficiency: a single forward pass uses 2.19 GB VRAM (B = 1), with SFT cost under USD 0.01 and 0.0824 kg CO₂eq emitted on ECG-QA.",
-        "Co-authors: Percy Maldonado Quispe and Ana Maria Cuadros Valdivia. Published in IJACSA Vol. 17, No. 10 under CC BY 4.0 license."
+        "Published in IJACSA Vol. 17, No. 10 (2026) under CC BY 4.0 license."
       ],
       "keywords": [
         "Time-series QA",
@@ -342,14 +346,14 @@
       "venue": "2025 44th International Conference of the Chilean Computer Science Society (SCCC 2025)",
       "year": "2025",
       "type": "Conference paper",
-      "role": "First author",
+      "role": "Principal author",
       "summary": "A system that enables querying crime data through natural language and generating interactive geographic visualizations. Leveraging LLMs, it integrates official records with social media posts, providing contextualized and up-to-date insights.",
       "highlights": [
         "Designed and implemented an NL→SQL pipeline over urban crime data with fragmented sources.",
         "Integrated LLMs with official records and social media posts for contextualized, up-to-date insights.",
         "Supports guided exploration and multilevel spatial analysis over interactive geographic visualizations.",
         "Provides transparent explanations that strengthen evidence-based decision-making.",
-        "Co-author: Ana Maria Cuadros Valdivia. Presented in Valparaíso, Chile, 28–30 October 2025."
+        "Presented in Valparaíso, Chile, 28–30 October 2025."
       ],
       "keywords": [
         "LLMs",

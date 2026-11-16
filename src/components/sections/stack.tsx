@@ -40,6 +40,12 @@ const CORE: Record<string, CoreMeta> = {
   TensorFlow: { slug: "tensorflow", years: 2, color: "#ff6f00" },
   Pandas: { slug: "pandas", years: 2, color: "#150458" },
   NumPy: { slug: "numpy", years: 2, color: "#013243" },
+  ".NET": { slug: "dotnet", years: 2, color: "#512bd4" },
+  "C#": { slug: "csharp", years: 2, color: "#9b4f96" },
+  "SQL Server": { slug: "microsoftsqlserver", years: 1, color: "#cc2927" },
+  AWS: { slug: "amazonwebservices", years: 3, color: "#ff9900" },
+  EKS: { slug: "amazonelastickservice", years: 2, color: "#ff9900" },
+  CloudWatch: { slug: "amazoncloudwatch", years: 2, color: "#ff9900" },
 };
 
 function CoreTech({ name, meta }: { name: string; meta: CoreMeta }) {

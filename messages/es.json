@@ -249,8 +249,7 @@
         "Express",
         "DDD",
         "Hexagonal"
-      ]
-    },
+      ]    },
     {
       "category": "Frontend",
       "items": [
@@ -299,7 +298,11 @@
     {
       "category": "Cloud & DevOps",
       "items": [
-        "AWS (EC2, ECS)",
+        "AWS",
+        "EKS",
+        "CloudWatch",
+        "EC2",
+        "ECS",
         "GCP (Cloud Run, Functions, Pub/Sub)",
         "Docker",
         "Nginx",
@@ -314,13 +317,13 @@
       "venue": "International Journal of Advanced Computer Science and Applications (IJACSA)",
       "year": "2026",
       "type": "Research Article",
-      "role": "Primer autor",
+      "role": "Autor principal",
       "summary": "Framework multimodal para preguntas y respuestas sobre series de tiempo que construye sobre ITFormer usando un SLM congelado de 0.5B parámetros. Introduce Balanced Fusion, una normalización pre-atencional ligera con solo 1,794 parámetros entrenables, y un X-Module para auditoría multinivel.",
       "highlights": [
         "Balanced Fusion: normalización pre-atencional con 1,794 parámetros entrenables adicionales, reduciendo el error cuadrático medio contrafactual un 26.3% y las iteraciones de optimización un 38.0% (Wilcoxon, p ≤ 0.001, N = 1000 muestras ECG-QA).",
         "Auditoría multinivel: atribución por atención (nivel 1), recuperación de casos k-vecinos (nivel 2) y generación contrafactual (nivel 3), con mapas de atención estables bajo ruido gaussiano (similitud coseno 0.9998).",
         "Eficiencia: una pasada hacia adelante usa 2.19 GB de VRAM (B = 1), con costo de SFT menor a USD 0.01 y 0.0824 kg CO₂eq emitido en ECG-QA.",
-        "Coautores: Percy Maldonado Quispe y Ana Maria Cuadros Valdivia. Publicado en IJACSA Vol. 17, No. 10 bajo licencia CC BY 4.0."
+        "Publicación en IJACSA Vol. 17, No. 10 (2026) bajo licencia CC BY 4.0."
       ],
       "keywords": [
         "Time-series QA",
@@ -342,14 +345,14 @@
       "venue": "2025 44th International Conference of the Chilean Computer Science Society (SCCC 2025)",
       "year": "2025",
       "type": "Conference paper",
-      "role": "Primer autor",
+      "role": "Autor principal",
       "summary": "Sistema que permite consultar datos de criminalidad urbana en lenguaje natural y generar visualizaciones geográficas interactivas. Integra registros oficiales con publicaciones de redes sociales mediante LLMs, ofreciendo análisis espacial multinivel y explicaciones transparentes.",
       "highlights": [
         "Diseño e implementación de un pipeline NL→SQL sobre datos de criminalidad urbana con fuentes fragmentadas.",
         "Integración de LLMs con registros oficiales y publicaciones en redes sociales para insights contextualizados y actualizados.",
         "Soporte para exploración guiada y análisis espacial multinivel sobre visualizaciones geográficas interactivas.",
         "Explicaciones transparentes que fortalecen la toma de decisiones basada en evidencia.",
-        "Coautora: Ana Maria Cuadros Valdivia. Presentado en Valparaíso, Chile, 28–30 de octubre de 2025."
+        "Presentado en Valparaíso, Chile, 28–30 de octubre de 2025."
       ],
       "keywords": [
         "LLMs",

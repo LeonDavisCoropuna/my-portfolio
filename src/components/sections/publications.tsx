@@ -56,6 +56,9 @@ export function Publications() {
                         {p.venue} · {p.year} · {p.type}
                       </CardDescription>
                     </div>
+                    <Badge variant="outline" className="shrink-0 font-normal">
+                      {p.role}
+                    </Badge>
                   </div>
                 </CardHeader>
                 <CardContent>
