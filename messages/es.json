@@ -341,7 +341,7 @@
       "title": "CRIMQA: A Natural Language Question Answering System for Exploring Urban Crime Perceptions and Patterns through Interactive Maps",
       "venue": "2025 44th International Conference of the Chilean Computer Science Society (SCCC 2025)",
       "year": "2025",
-      "type": "Paper de conferencia",
+      "type": "Conference paper",
       "role": "Primer autor",
       "summary": "Sistema que permite consultar datos de criminalidad urbana en lenguaje natural y generar visualizaciones geográficas interactivas. Integra registros oficiales con publicaciones de redes sociales mediante LLMs, ofreciendo análisis espacial multinivel y explicaciones transparentes.",
       "highlights": [
