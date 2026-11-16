@@ -2,6 +2,7 @@ import { Hero } from "@/components/sections/hero";
 import { About } from "@/components/sections/about";
 import { Experience } from "@/components/sections/experience";
 import { Projects } from "@/components/sections/projects";
+import { Publications } from "@/components/sections/publications";
 import { Stack } from "@/components/sections/stack";
 import { Education } from "@/components/sections/education";
 import { Contact } from "@/components/sections/contact";
@@ -29,6 +30,7 @@ export default async function HomePage({
         <About />
         <Experience />
         <Projects />
+        <Publications />
         <Stack />
         <Education />
         <Contact />

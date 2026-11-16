@@ -19,6 +19,7 @@
     "about": "Sobre mí",
     "experience": "Experiencia",
     "projects": "Proyectos",
+    "publications": "Publicaciones",
     "stack": "Stack",
     "education": "Educación",
     "contact": "Contacto"
@@ -64,14 +65,25 @@
     "label": "Stack",
     "title": "Herramientas que uso."
   },
-  "Education": {
+  "Publications": {
     "number": "05",
+    "label": "Publicaciones",
+    "title": "Papers que he publicado.",
+    "subtitle": "Investigación revisada por pares en Journals e Soledad.",
+    "links": {
+      "paper": "Paper",
+      "doi": "DOI",
+      "pdf": "PDF"
+    }
+  },
+  "Education": {
+    "number": "06",
     "label": "Educación",
     "title": "Formación",
     "certifications": "Certificaciones"
   },
   "Contact": {
-    "number": "06",
+    "number": "07",
     "label": "Contacto",
     "title": "Hablemos.",
     "subtitle": "Disponible para oportunidades en backend, cloud o investigación aplicada. Escríbeme y conversamos.",
@@ -275,6 +287,10 @@
     {
       "category": "Datos",
       "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
         "SQL Server",
         "IBM DB2",
         "MySQL",
@@ -295,6 +311,8 @@
       "category": "IA / ML",
       "items": [
         "PyTorch",
+        "TensorFlow",
+        "Redes neuronales",
         "OpenCV",
         "YOLOv8",
         "MiniFASNetV2",
@@ -314,6 +332,61 @@
       ]
     }
   ],
+  "PublicationsData": {
+    "xitformer": {
+      "title": "X-ITFormer: Balanced Fusion and Multilevel Auditing for Multimodal Time-Series QA",
+      "venue": "International Journal of Advanced Computer Science and Applications (IJACSA)",
+      "year": "2026",
+      "type": "Research Article",
+      "role": "Primer autor",
+      "summary": "Framework multimodal para preguntas y respuestas sobre series de tiempo que construye sobre ITFormer usando un SLM congelado de 0.5B parámetros. Introduce Balanced Fusion, una normalización pre-atencional ligera con solo 1,794 parámetros entrenables, y un X-Module para auditoría multinivel.",
+      "highlights": [
+        "Balanced Fusion: normalización pre-atencional con 1,794 parámetros entrenables adicionales, reduciendo el error cuadrático medio contrafactual un 26.3% y las iteraciones de optimización un 38.0% (Wilcoxon, p ≤ 0.001, N = 1000 muestras ECG-QA).",
+        "Auditoría multinivel: atribución por atención (nivel 1), recuperación de casos k-vecinos (nivel 2) y generación contrafactual (nivel 3), con mapas de atención estables bajo ruido gaussiano (similitud coseno 0.9998).",
+        "Eficiencia: una pasada hacia adelante usa 2.19 GB de VRAM (B = 1), con costo de SFT menor a USD 0.01 y 0.0824 kg CO₂eq emitido en ECG-QA.",
+        "Coautores: Percy Maldonado Quispe y Ana Maria Cuadros Valdivia. Publicado en IJACSA Vol. 17, No. 10 bajo licencia CC BY 4.0."
+      ],
+      "keywords": [
+        "Time-series QA",
+        "Multimodal learning",
+        "Explainable AI",
+        "Small language models",
+        "Counterfactual explanations",
+        "Green AI"
+      ],
+      "doi": "10.14569/IJACSA.2026.0171099",
+      "links": {
+        "paper": "https://thesai.org/Publications/ViewPaper?Volume=17&Issue=10&Code=IJACSA&SerialNo=99",
+        "doi": "https://doi.org/10.14569/IJACSA.2026.0171099",
+        "pdf": "https://thesai.org/Downloads/Volume17No10/Paper_99-X_ITFormer_Balanced_Fusion_and_Multilevel_Auditing.pdf"
+      }
+    },
+    "crimqa": {
+      "title": "CRIMQA",
+      "venue": "IEEE SCCC 2025",
+      "year": "2025",
+      "type": "Paper aceptado",
+      "role": "Investigador",
+      "summary": "Sistema de preguntas y respuestas en lenguaje natural sobre datos de criminalidad urbana, con visualizaciones geográficas interactivas generadas a partir de LLMs y registros oficiales.",
+      "highlights": [
+        "Diseño e implementación de un pipeline NL→SQL sobre datos de criminalidad urbana.",
+        "Integración de LLMs con registros oficiales y publicaciones en redes sociales.",
+        "Generación de visualizaciones geográficas interactivas a partir de consultas en lenguaje natural.",
+        "Paper aceptado en IEEE SCCC 2025."
+      ],
+      "keywords": [
+        "LLMs",
+        "Python",
+        "TypeScript",
+        "NLP",
+        "Geo"
+      ],
+      "doi": "10.1109/SCCC.2025.11420807",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/document/11420807"
+      }
+    }
+  },
   "EducationData": [
     {
       "institution": "Universidad Nacional de San Agustín",

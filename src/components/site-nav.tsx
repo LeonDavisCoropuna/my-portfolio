@@ -28,6 +28,7 @@ export function SiteNav() {
     { id: "sobre-mi", label: t("about") },
     { id: "experiencia", label: t("experience") },
     { id: "proyectos", label: t("projects") },
+    { id: "publicaciones", label: t("publications") },
     { id: "stack", label: t("stack") },
     { id: "educacion", label: t("education") },
     { id: "contacto", label: t("contact") },

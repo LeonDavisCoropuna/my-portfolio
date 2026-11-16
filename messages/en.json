@@ -19,6 +19,7 @@
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
+    "publications": "Publications",
     "stack": "Stack",
     "education": "Education",
     "contact": "Contact"
@@ -64,14 +65,25 @@
     "label": "Stack",
     "title": "Tools I use."
   },
-  "Education": {
+  "Publications": {
     "number": "05",
+    "label": "Publications",
+    "title": "Papers I've published.",
+    "subtitle": "Peer-reviewed research in journals and conferences.",
+    "links": {
+      "paper": "Paper",
+      "doi": "DOI",
+      "pdf": "PDF"
+    }
+  },
+  "Education": {
+    "number": "06",
     "label": "Education",
     "title": "Background",
     "certifications": "Certifications"
   },
   "Contact": {
-    "number": "06",
+    "number": "07",
     "label": "Contact",
     "title": "Let's talk.",
     "subtitle": "Available for opportunities in backend, cloud or applied research. Reach out and let's chat.",
@@ -275,6 +287,10 @@
     {
       "category": "Data",
       "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
         "SQL Server",
         "IBM DB2",
         "MySQL",
@@ -295,6 +311,8 @@
       "category": "AI / ML",
       "items": [
         "PyTorch",
+        "TensorFlow",
+        "Neural networks",
         "OpenCV",
         "YOLOv8",
         "MiniFASNetV2",
@@ -314,6 +332,61 @@
       ]
     }
   ],
+  "PublicationsData": {
+    "xitformer": {
+      "title": "X-ITFormer: Balanced Fusion and Multilevel Auditing for Multimodal Time-Series QA",
+      "venue": "International Journal of Advanced Computer Science and Applications (IJACSA)",
+      "year": "2026",
+      "type": "Research Article",
+      "role": "First author",
+      "summary": "A multimodal framework for time-series question answering that builds on ITFormer using a frozen 0.5B-parameter SLM. It introduces Balanced Fusion, a lightweight pre-attentional normalization mechanism with only 1,794 additional trainable parameters, and a post-hoc X-Module for multi-level auditing.",
+      "highlights": [
+        "Balanced Fusion: pre-attentional normalization with 1,794 additional trainable parameters, reducing logged counterfactual MSE by 26.3% and optimization iterations by 38.0% (Wilcoxon, p ≤ 0.001, N = 1000 ECG-QA samples).",
+        "Multi-level auditing: attention-based attribution (Level 1), k-nearest-neighbor case retrieval (Level 2) and counterfactual generation (Level 3), with attention maps stable under Gaussian noise (cosine similarity 0.9998).",
+        "Efficiency: a single forward pass uses 2.19 GB VRAM (B = 1), with SFT cost under USD 0.01 and 0.0824 kg CO₂eq emitted on ECG-QA.",
+        "Co-authors: Percy Maldonado Quispe and Ana Maria Cuadros Valdivia. Published in IJACSA Vol. 17, No. 10 under CC BY 4.0 license."
+      ],
+      "keywords": [
+        "Time-series QA",
+        "Multimodal learning",
+        "Explainable AI",
+        "Small language models",
+        "Counterfactual explanations",
+        "Green AI"
+      ],
+      "doi": "10.14569/IJACSA.2026.0171099",
+      "links": {
+        "paper": "https://thesai.org/Publications/ViewPaper?Volume=17&Issue=10&Code=IJACSA&SerialNo=99",
+        "doi": "https://doi.org/10.14569/IJACSA.2026.0171099",
+        "pdf": "https://thesai.org/Downloads/Volume17No10/Paper_99-X_ITFormer_Balanced_Fusion_and_Multilevel_Auditing.pdf"
+      }
+    },
+    "crimqa": {
+      "title": "CRIMQA",
+      "venue": "IEEE SCCC 2025",
+      "year": "2025",
+      "type": "Accepted paper",
+      "role": "Researcher",
+      "summary": "Natural-language question answering system over urban crime data, with interactive geographic visualizations generated from LLMs and official records.",
+      "highlights": [
+        "Designed and implemented an NL→SQL pipeline over urban crime data.",
+        "Integrated LLMs with official records and social media publications.",
+        "Generated interactive geographic visualizations from natural-language queries.",
+        "Paper accepted at IEEE SCCC 2025."
+      ],
+      "keywords": [
+        "LLMs",
+        "Python",
+        "TypeScript",
+        "NLP",
+        "Geo"
+      ],
+      "doi": "10.1109/SCCC.2025.11420807",
+      "links": {
+        "paper": "https://ieeexplore.ieee.org/document/11420807"
+      }
+    }
+  },
   "EducationData": [
     {
       "institution": "Universidad Nacional de San Agustín",

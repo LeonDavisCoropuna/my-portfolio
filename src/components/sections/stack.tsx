@@ -35,6 +35,11 @@ const CORE: Record<string, CoreMeta> = {
   "Next.js": { slug: "nextdotjs", years: 2, color: "#000000" },
   Docker: { slug: "docker", years: 3, color: "#2496ed" },
   "Google Cloud": { slug: "googlecloud", years: 2, color: "#4285f4" },
+  Python: { slug: "python", years: 2, color: "#3776ab" },
+  PyTorch: { slug: "pytorch", years: 2, color: "#ee4c2c" },
+  TensorFlow: { slug: "tensorflow", years: 2, color: "#ff6f00" },
+  Pandas: { slug: "pandas", years: 2, color: "#150458" },
+  NumPy: { slug: "numpy", years: 2, color: "#013243" },
 };
 
 function CoreTech({ name, meta }: { name: string; meta: CoreMeta }) {
