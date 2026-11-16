@@ -338,28 +338,31 @@
       }
     },
     "crimqa": {
-      "title": "CRIMQA",
-      "venue": "IEEE SCCC 2025",
+      "title": "CRIMQA: A Natural Language Question Answering System for Exploring Urban Crime Perceptions and Patterns through Interactive Maps",
+      "venue": "2025 44th International Conference of the Chilean Computer Science Society (SCCC 2025)",
       "year": "2025",
-      "type": "Accepted paper",
-      "role": "Researcher",
-      "summary": "Natural-language question answering system over urban crime data, with interactive geographic visualizations generated from LLMs and official records.",
+      "type": "Conference paper",
+      "role": "First author",
+      "summary": "A system that enables querying crime data through natural language and generating interactive geographic visualizations. Leveraging LLMs, it integrates official records with social media posts, providing contextualized and up-to-date insights.",
       "highlights": [
-        "Designed and implemented an NL→SQL pipeline over urban crime data.",
-        "Integrated LLMs with official records and social media publications.",
-        "Generated interactive geographic visualizations from natural-language queries.",
-        "Paper accepted at IEEE SCCC 2025."
+        "Designed and implemented an NL→SQL pipeline over urban crime data with fragmented sources.",
+        "Integrated LLMs with official records and social media posts for contextualized, up-to-date insights.",
+        "Supports guided exploration and multilevel spatial analysis over interactive geographic visualizations.",
+        "Provides transparent explanations that strengthen evidence-based decision-making.",
+        "Co-author: Ana Maria Cuadros Valdivia. Presented in Valparaíso, Chile, 28–30 October 2025."
       ],
       "keywords": [
         "LLMs",
         "Python",
         "TypeScript",
         "NLP",
-        "Geo"
+        "Geo",
+        "Visual analytics"
       ],
       "doi": "10.1109/SCCC.2025.11420807",
       "links": {
-        "paper": "https://ieeexplore.ieee.org/document/11420807"
+        "paper": "https://ieeexplore.ieee.org/document/11420807",
+        "doi": "https://doi.org/10.1109/SCCC.2025.11420807"
       }
     }
   },
